@@ -1,115 +1,20 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
+  "$schema": "https://mintlify.com/docs.json",
   "name": "Edsby",
   "colors": {
     "primary": "#f0c701",
     "light": "#f0c701",
     "dark": "#0098ff"
   },
-  "appearance": {
-    "default": "light"
-  },
-  "fonts": {
-    "heading": {
-      "family": "Poppins"
-    }
-  },
-  "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Home",
-        "pages": ["index"]
-      },
-      {
-        "tab": "Students",
-        "groups": [
-          {
-            "group": " ",
-            "pages": ["support/students"]
-          },
-          {
-            "group": "FAQs",
-            "pages": [
-              "help/edsby-login",
-              "help/choosing-a-stronger-password/",
-              "help/sync-edsby-calendars-outlook-google-calendar/"
-            ]
-          },
-          {
-            "group": "Settings",
-            "pages": [
-              "help/account-settings-3",
-              "help/account-settings-3/personal-information",
-              "help/forgotten-passwords"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Administrators",
-        "groups": [
-          {
-            "group": " ",
-            "pages": ["support/administrators"]
-          },
-          {
-            "group": "Learn About",
-            "pages": [
-              "help/learning-object-repository",
-              "help/smartphones-and-tablets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Teachers",
-        "groups": [
-          {
-            "group": "Learn About",
-            "pages": ["help/resending-parent-invitations"]
-          },
-          {
-            "group": "Videos",
-            "pages": ["help/printing-a-roster-3"]
-          }
-        ]
-      },
-      {
-        "tab": "Parents",
-        "groups": [
-          {
-            "group": "Learn About",
-            "pages": ["help/viewing-report-cards"]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "About Us",
-          "href": "https://www.edsby.com/edsby-k12-lms/",
-          "icon": "users"
-        },
-        {
-          "anchor": "Contact Us",
-          "href": "https://www.edsby.com/about-edsby/contact-us/",
-          "icon": "envelope"
-        },
-        {
-          "anchor": "FAQs",
-          "href": "https://www.edsby.com/faqs/",
-          "icon": "circle-question"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/logo.png",
     "dark": "/logo/logo.png",
     "href": "https://www.edsby.com/"
+  },
+  "favicon": "/favicon.png",
+  "appearance": {
+    "default": "light"
   },
   "navbar": {
     "links": [
@@ -124,11 +29,207 @@
       "href": "https://forms.edsby.com/contact-sales"
     }
   },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "About Us",
+          "icon": "users",
+          "href": "https://www.edsby.com/edsby-k12-lms/"
+        },
+        {
+          "anchor": "Contact Us",
+          "icon": "envelope",
+          "href": "https://www.edsby.com/about-edsby/contact-us/"
+        },
+        {
+          "anchor": "FAQs",
+          "icon": "circle-question",
+          "href": "https://www.edsby.com/faqs/"
+        }
+      ]
+    },
+    "languages": [
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Home",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "tab": "Students",
+            "groups": [
+              {
+                "group": " ",
+                "pages": [
+                  "support/students"
+                ]
+              },
+              {
+                "group": "FAQs",
+                "pages": [
+                  "help/edsby-login",
+                  "help/choosing-a-stronger-password",
+                  "help/sync-edsby-calendars-outlook-google-calendar"
+                ]
+              },
+              {
+                "group": "Settings",
+                "pages": [
+                  "help/account-settings-3",
+                  "help/account-settings-3/personal-information",
+                  "help/forgotten-passwords"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Administrators",
+            "groups": [
+              {
+                "group": " ",
+                "pages": [
+                  "support/administrators"
+                ]
+              },
+              {
+                "group": "Learn About",
+                "pages": [
+                  "help/learning-object-repository",
+                  "help/smartphones-and-tablets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Teachers",
+            "groups": [
+              {
+                "group": "Learn About",
+                "pages": [
+                  "help/resending-parent-invitations"
+                ]
+              },
+              {
+                "group": "Videos",
+                "pages": [
+                  "help/printing-a-roster-3"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Parents",
+            "groups": [
+              {
+                "group": "Learn About",
+                "pages": [
+                  "help/viewing-report-cards"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabs": [
+          {
+            "tab": "Accueil",
+            "pages": [
+              "fr/index"
+            ]
+          },
+          {
+            "tab": "Élèves",
+            "groups": [
+              {
+                "group": " ",
+                "pages": [
+                  "fr/support/students"
+                ]
+              },
+              {
+                "group": "FAQ",
+                "pages": [
+                  "fr/help/edsby-login",
+                  "fr/help/choosing-a-stronger-password",
+                  "fr/help/sync-edsby-calendars-outlook-google-calendar"
+                ]
+              },
+              {
+                "group": "Paramètres",
+                "pages": [
+                  "fr/help/account-settings-3",
+                  "fr/help/account-settings-3/personal-information",
+                  "fr/help/forgotten-passwords"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Administrateurs",
+            "groups": [
+              {
+                "group": " ",
+                "pages": [
+                  "fr/support/administrators"
+                ]
+              },
+              {
+                "group": "En savoir plus",
+                "pages": [
+                  "fr/help/learning-object-repository",
+                  "fr/help/smartphones-and-tablets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Enseignants",
+            "groups": [
+              {
+                "group": "En savoir plus",
+                "pages": [
+                  "fr/help/resending-parent-invitations"
+                ]
+              },
+              {
+                "group": "Vidéos",
+                "pages": [
+                  "fr/help/printing-a-roster-3"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Parents",
+            "groups": [
+              {
+                "group": "En savoir plus",
+                "pages": [
+                  "fr/help/viewing-report-cards"
+                ]
+              }
+            ]
+          }
+        ],
+        "language": "fr"
+      }
+    ]
+  },
   "footer": {
     "socials": {
       "facebook": "https://www.facebook.com/edsby",
       "x": "https://twitter.com/edsby",
       "linkedin": "https://www.linkedin.com/company/edsby"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Poppins"
     }
   }
 }
